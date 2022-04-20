@@ -150,6 +150,6 @@ replay_pid*
 ## Begin Visual Studio Code...
 .vscode/launch.json
 
-# Do ignore dependency jar files #
+# Do include dependency jar files #
 !lib/*.jar
-!lib/**/*.jar
+
