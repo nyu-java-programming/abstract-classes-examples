@@ -1,8 +1,8 @@
-package edu.nyu.cs.moving_things;
+package edu.nyu.cs.abstract_classes.moving_things;
 
 import java.util.ArrayList;
 
-import processing.core.PApplet;
+import processing.core.*;
 
 /**
  * A Processing-enabled app with a flying dog and a flying spaceship
@@ -20,7 +20,7 @@ public class App extends PApplet {
 	private ArrayList<MovingThing> things = new ArrayList<MovingThing>();
 
 	public static void main(String[] args) {
-		PApplet.main("edu.nyu.cs.moving_things.App");
+		PApplet.main("edu.nyu.cs.abstract_classes.moving_things.App");
 	}
 	
 	/**

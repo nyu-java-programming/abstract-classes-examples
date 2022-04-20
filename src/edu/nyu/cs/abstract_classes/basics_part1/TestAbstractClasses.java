@@ -1,4 +1,4 @@
-package edu.nyu.cs.abstract_class_examples;
+package edu.nyu.cs.abstract_classes.basics_part1;
 
 /**
  * A cheap excuse for a main method.

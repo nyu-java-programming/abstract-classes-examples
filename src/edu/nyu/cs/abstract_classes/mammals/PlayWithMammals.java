@@ -1,4 +1,4 @@
-package edu.nyu.cs.mammals;
+package edu.nyu.cs.abstract_classes.mammals;
 
 public class PlayWithMammals {
 

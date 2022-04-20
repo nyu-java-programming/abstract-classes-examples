@@ -1,4 +1,4 @@
-package edu.nyu.cs.mammals;
+package edu.nyu.cs.abstract_classes.mammals;
 
 /**
  * An abstract virtual representation of a Mammal.  We will never want to instantiate a Mammal object, yet child classes of Mammal will share many implemented methods in comon.  So this makes sense as an abstract class.

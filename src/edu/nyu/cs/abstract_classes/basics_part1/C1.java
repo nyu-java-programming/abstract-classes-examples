@@ -1,4 +1,4 @@
-package edu.nyu.cs.abstract_class_examples;
+package edu.nyu.cs.abstract_classes.basics_part1;
 
 /**
  * An abstract class.  Notice it can have any type of data fields, any type of methods, including abstract methods.

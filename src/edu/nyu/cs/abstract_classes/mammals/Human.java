@@ -1,4 +1,4 @@
-package edu.nyu.cs.mammals;
+package edu.nyu.cs.abstract_classes.mammals;
 
 /**
  * A virtual representation of a Human, which is, of course, a type of Mammal

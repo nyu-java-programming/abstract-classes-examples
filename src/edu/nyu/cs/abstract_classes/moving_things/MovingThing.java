@@ -1,4 +1,4 @@
-package edu.nyu.cs.moving_things;
+package edu.nyu.cs.abstract_classes.moving_things;
 
 import processing.core.*;
 

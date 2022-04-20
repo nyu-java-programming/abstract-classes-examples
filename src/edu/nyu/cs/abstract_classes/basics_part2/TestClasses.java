@@ -1,4 +1,4 @@
-package edu.nyu.cs.abstract_classes.simplest_example;
+package edu.nyu.cs.abstract_classes.basics_part2;
 
 public class TestClasses {
 
@@ -9,16 +9,16 @@ public class TestClasses {
 		
 		// however, you can instantiate a non-abstract child class of an abstract class
 		Baz bz1 = new Baz();
-		Foo bz2 = new Baz();
+		Bar bz2 = new Baz();
 		Bar bz3 = new Baz();
 		
 		Bar[] arr = {bz1, bz2, bz3};
 		
 		for (Bar obj : arr) {
 			obj.doSomething1(); // declared in interface Bar, inherited by Foo, passed on to Baz which implements it
-			if (obj instanceof Foo) {
-				((Foo) obj).doSomething2(); // declared in class Foo, implemented in class Baz
-				((Foo) obj).doSomething3(); // inherited from class Foo
+			if (obj instanceof Bar) {
+				((Bar) obj).doSomething2(); // declared in class Foo, implemented in class Baz
+				((Bar) obj).doSomething3(); // inherited from class Foo
 			}
 			obj.doSomething4(); // inherited as default method from interface Bar
 		}

@@ -1,5 +1,6 @@
-package edu.nyu.cs.moving_things;
+package edu.nyu.cs.abstract_classes.moving_things;
 
+import java.nio.file.Paths;
 import processing.core.*;
 
 /**
@@ -11,11 +12,16 @@ import processing.core.*;
 public class FlyingDog extends MovingThing {
 
 	/**
+	 * Platform-agnostic way to reference a filepath
+	 */
+	private final static String DOG_IMAGE_PATH  = Paths.get(Paths.get("").toAbsolutePath().toString(), "images", "dog.jpg").toString(); //the image file, in a platform-appropriate file path
+
+	/**
 	 * Constructor that takes a reference to the App object that Processing automatically instantiates from the App class
 	 * @param app A reference to the App object, which contains lots of useful methods inherited from the PApplet class.
 	 */
 	public FlyingDog(App app) {
-		super(app, "src/dog.jpg");
+		super(app, DOG_IMAGE_PATH);
 		int newX = (int) (Math.random() * app.width);
 		this.setX(newX);
 		int newY = (int) (Math.random() * app.height);
